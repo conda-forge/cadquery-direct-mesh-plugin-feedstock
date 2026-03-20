@@ -1,5 +1,5 @@
 {% set name = "cadquery-direct-mesh-plugin" %}
-{% set version = "0.1.0" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/cadquery_direct_mesh_plugin-{{ version }}.tar.gz
-  sha256: c755c8d397543161f970687f20414ebcc7cc3e72b1b4b1fe005f36f6307b0896
+  sha256: d7d27c565f40da31f58010149603038a2a013d28c9153f60025ffbc5dd457575
 
 build:
   noarch: python
